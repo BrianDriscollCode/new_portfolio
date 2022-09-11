@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #282828;
+  position: absolute;
+  height: 75px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: #9b9b9b;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: solid 1px #e0c260;
+}
+
+.nav_container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_items {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 45%;
+}/*# sourceMappingURL=Navbar.module.css.map */

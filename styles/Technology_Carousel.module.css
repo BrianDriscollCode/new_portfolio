@@ -1,0 +1,21 @@
+.carousel {
+  height: 200px;
+  background-color: #50656e;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel_container {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skill_item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70px;
+  color: white;
+}/*# sourceMappingURL=Technology_Carousel.module.css.map */
