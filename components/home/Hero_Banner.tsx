@@ -1,4 +1,4 @@
-import Banner_styles from "../../styles/Banner.module.scss";
+import Banner_styles from "../../styles/home/Banner.module.scss";
 
 const Hero_Banner = () => {
 

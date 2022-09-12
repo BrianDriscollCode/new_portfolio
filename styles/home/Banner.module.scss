@@ -1,3 +1,14 @@
+/* Contains stylings for Home banner and section div */
+
+/* How elements display 
+
+    <Banner /> 
+    <Technology_Carousel />   <--- styles in Technology_Carousel.modules.scss
+    <sectioner />
+
+
+/*Banner Stylings*/
+
 .banner {
     
     display: flex;
@@ -5,7 +16,7 @@
     url("/developer_on_computer.jpg");
     justify-content: center;
     align-items: center;
-    height: 650px;
+    height: 550px;
     width: 100%;
     
 
@@ -52,5 +63,15 @@
     border: none;
     font-size: 20px;
     font-weight: 500;
+
+}
+
+/* section div */
+
+.sectioner_banner {
+
+    height: 75px;
+    background-color: #50656e;
+    clip-path: polygon(0 0, 100% 0, 80% 100%);
 
 }

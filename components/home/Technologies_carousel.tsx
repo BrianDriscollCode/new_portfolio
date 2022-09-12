@@ -1,4 +1,4 @@
-import styles from "../../styles/Technology_Carousel.module.scss";
+import styles from "../../styles/home/Technology_Carousel.module.scss";
 
 import { FaReact, FaSass, FaAws } from "react-icons/fa";
 import { SiJavascript, SiTypescript } from "react-icons/Si";

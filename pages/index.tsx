@@ -1,7 +1,8 @@
 import type { NextPage } from 'next';
 import Banner from "../components/home/Hero_Banner";
 import Carousel from "../components/home/Technologies_carousel";
-import Section from "../components/home/section";
+import Sectioner from "../components/home/Sectioner";
+import Portfolio from "../components/home/Portfolio";
 
 const Home: NextPage = () => {
   return (
@@ -9,7 +10,9 @@ const Home: NextPage = () => {
       
       <Banner />
       <Carousel />
-      <Section />
+      <Sectioner />
+      <Portfolio />
+
 
     </div>
   )

@@ -1,0 +1,124 @@
+.portfolio {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.portfolio_container {
+
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto 0 auto;
+
+}
+
+.portfolio_container h2 {
+
+    font-size: 40px;
+    color: #50656e;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 2px #50656E;
+
+}
+
+.portfolio_container p {
+
+    font-size: 20px;
+    color: #50656e;
+    margin-bottom: 2em;
+
+}
+
+.image_container {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.images_wrapper {
+
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 60%;
+
+}
+
+.portfolio_image_container {
+
+    position: relative;
+    top: 0;
+    left: 0;
+    color: #282828;
+
+}
+
+.image1 {
+
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.image2 {
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-self: center;
+
+}
+
+.image3 {
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+.image4 {
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+.left_button {
+
+    height: 540px;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.right_button {
+
+    height: 540px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.portfolio_info {
+
+    width: 540px;
+    padding: 0 15px 15px 0px;
+
+}
+
+.portfolio_image_container h3 {
+
+    font-size: 30px;
+}
+
