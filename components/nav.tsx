@@ -1,5 +1,5 @@
 import Link from "next/link";
-import navbar_styles from "../styles/home/Navbar.module.css";
+import navbar_styles from "../styles/home/Navbar.module.scss";
 import Image from "next/image";
 
 const Nav = () => {
@@ -18,8 +18,8 @@ const Nav = () => {
 
                 <div className={navbar_styles.navbar_items}>
                     
-                    <div className="">
-                        <Link href="/"> Home </Link>
+                    <div>
+                        <Link className={navbar_styles.link} href="/"> Home </Link>
                     </div> 
                     
                     <div>

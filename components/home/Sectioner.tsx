@@ -5,8 +5,7 @@ const section = () => {
     return (
         <div className={Banner_stylings.sectioner_banner}>
 
-            section
-
+  
         </div>
     )
 

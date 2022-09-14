@@ -9,6 +9,7 @@
   font-size: 18px;
   font-weight: 500;
   border-bottom: solid 1px #e0c260;
+  z-index: 100;
 }
 
 .nav_container {
@@ -24,4 +25,23 @@
   justify-content: space-between;
   flex-direction: row;
   width: 45%;
+}
+
+.navbar_items a:hover {
+  color: white;
+}
+
+/* media queries */
+@media only screen and (max-width: 1500px) {
+  .nav_container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .nav_container {
+    width: 90%;
+  }
+  .navbar_items {
+    width: 60%;
+  }
 }/*# sourceMappingURL=Navbar.module.css.map */
