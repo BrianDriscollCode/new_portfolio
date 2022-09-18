@@ -12,7 +12,7 @@ const Hero_Banner = () => {
 
                     <h1> Frontend Web Developer </h1>
                     <p> My name is Brian I build valuable user experiences and web applications using JavaScript, React, and CSS. </p>
-                    <button> Let's Work Together </button>
+                    <button> LET&apos;S WORK TOGETHER </button>
 
                 </div>
                 

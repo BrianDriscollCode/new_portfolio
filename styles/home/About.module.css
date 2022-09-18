@@ -1,0 +1,87 @@
+.about_container {
+  background-color: #50656e;
+  display: flex;
+  justify-content: center;
+}
+
+.about_wrapper {
+  width: 55%;
+}
+
+.about_title {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.about_name {
+  font-size: 40px;
+  color: white;
+  margin-top: 15px;
+}
+
+.about_information {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.profile_image {
+  border-radius: 50%;
+  width: 275px;
+  height: 275px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.tagline {
+  font-size: 25px;
+  color: #e0c260;
+  font-weight: 500;
+}
+
+.about_description {
+  padding: 0 25px 0 25px;
+}
+
+.about_description p {
+  font-size: 17px;
+  color: white;
+}
+
+.contact_link {
+  font-weight: 600;
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: underline;
+  color: white;
+}
+
+@media only screen and (max-width: 1500px) {
+  .about_wrapper {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .about_wrapper {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .about_wrapper {
+    width: 90%;
+  }
+  .about_title {
+    text-align: center;
+  }
+  .about_name {
+    text-align: center;
+  }
+  .profile_image {
+    margin: 0 auto 0 auto;
+  }
+  .about_information {
+    flex-direction: column;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=About.module.css.map */

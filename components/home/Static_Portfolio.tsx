@@ -25,8 +25,8 @@ const Static_Portfolio = () => {
                                     This can go into a bit of depth so the user understands my project and what I accomplished. 
                             </p>
 
-                            <button> See Page</button> 
-                            <button> Github </button>
+                            <button className={styling.button}> See Page</button> 
+                            <button className={styling.button}> Github </button>
                         </div>
                     </div>
             </div>
@@ -45,8 +45,8 @@ const Static_Portfolio = () => {
                                     This can go into a bit of depth so the user understands my project and what I accomplished. 
                             </p>
 
-                            <button> See Page</button> 
-                            <button> Github </button>
+                            <button className={styling.button}> See Page</button> 
+                            
                         </div>
                     </div>
             </div>
@@ -65,8 +65,8 @@ const Static_Portfolio = () => {
                                     This can go into a bit of depth so the user understands my project and what I accomplished. 
                             </p>
 
-                            <button> See Page</button> 
-                            <button> Github </button>
+                            <button className={styling.button}> See Page</button> 
+                            <button className={styling.button}> Github </button>
                         </div>
                     </div>
             </div>

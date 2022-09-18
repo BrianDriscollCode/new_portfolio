@@ -1,9 +1,7 @@
 import styles from "../../styles/home/Technology_Carousel.module.scss";
-
 import { FaReact, FaSass, FaAws } from "react-icons/fa";
-import { SiJavascript, SiTypescript } from "react-icons/Si";
-import { TbBrandNextjs } from "react-icons/Tb" 
-import { AiFillGithub } from "react-icons/Ai"
+import { TbBrandNextjs } from "react-icons/tb"; 
+import { AiFillGithub } from "react-icons/ai";
 
 const Technologies_carousel = () => {
 
@@ -25,9 +23,9 @@ const Technologies_carousel = () => {
                     <FaAws size={50} />
                 </div>
 
-                <div className={styles.skill_item}>
+                {/* <div className={styles.skill_item}>
                     <SiTypescript size={50} />
-                </div>
+                </div> */}
 
                 <div className={styles.skill_item}>
                     <TbBrandNextjs size={50} />

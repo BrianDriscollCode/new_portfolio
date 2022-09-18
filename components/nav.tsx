@@ -1,45 +1,86 @@
+import { useState } from "react";
 import Link from "next/link";
-import navbar_styles from "../styles/home/Navbar.module.scss";
+import styles from "../styles/home/Navbar.module.scss";
 import Image from "next/image";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { SiTurkishairlines } from "react-icons/si";
+import { GrClose } from "react-icons/gr";
 
 const Nav = () => {
 
+    const [menuMaximized, setMenuMaximized] = useState(false);
+
     return (
 
-        <nav className={navbar_styles.navbar}>
+        <nav 
+            className={styles.navbar}
+            style={menuMaximized ? 
+                    {height: '700px'}: 
+                    {height: "75px"}}
+        >
 
-            <div className={navbar_styles.nav_container}>
-                <Image 
-                    src="/logo.png" 
-                    width={50}
-                    height={50}
+            <div 
+                className={styles.nav_container}
+              
+            >
+            <img 
+                    src="/logo.png"
+                    loading="lazy"
+                    decoding="async"
+                    className={styles.logo}
                 />
                 
 
-                <div className={navbar_styles.navbar_items}>
+                <div 
+                    className={styles.navbar_items}
+                    style={menuMaximized ? 
+                            {height: "500px", opacity: "1"}:
+                            {}
+                    }
+                >
                     
                     <div>
-                        <Link className={navbar_styles.link} href="/"> Home </Link>
+                        <Link className={styles.link} href="/"> HOME </Link>
                     </div> 
                     
                     <div>
-                        <Link href="/"> Portfolio </Link>
+                        <Link className={styles.link} href="/"> PORTFOLIO </Link>
                     </div>
 
                     <div>
-                        <Link href="/about">About </Link>
+                        <Link className={styles.link} href="/about"> ABOUT </Link>
                     </div>
                     
                     <div>
-                        <Link href="/">Resume</Link>
+                        <Link className={styles.link} href="/"> RESUME </Link>
                     </div>
                     
                     <div>
-                        <Link href="/">Contact</Link>
+                        <Link className={styles.link} href="/"> CONTACT </Link>
                     </div>
-                    
-                    
+
                 </div>
+
+                    {
+                        !menuMaximized ? 
+                        <GiHamburgerMenu 
+                            className={styles.hamburger_menu} 
+                            size={50}
+                            onClick={() => setMenuMaximized(!menuMaximized)}
+                        /> :
+                        <GrClose 
+                            className={styles.hamburger_menu} 
+                            size={50}
+                            color="white"
+                            onClick={() => setMenuMaximized(!menuMaximized)}
+                        />
+                    }
+
+                    
+
+                    
+                    
+                    
 
             </div>
 
