@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styling from "../../styles/home/Static_portfolio.module.scss";
 
 const Static_Portfolio = () => {
@@ -6,7 +7,10 @@ const Static_Portfolio = () => {
 
     return (
 
-        <section className={styling.portfolio_container}>
+        <section 
+            className={styling.portfolio_container}
+            id="portfolio"
+        >
 
             <h2 className={styling.title}> Take a look at my projects </h2> 
             <p className={styling.subtitle}>  Frontend // Database // UI </p>
@@ -21,12 +25,29 @@ const Static_Portfolio = () => {
                         <div className={styling.text_container_initial}>
                             <h3> Title Boxing Ecommerce </h3>
 
-                            <p> This is an explanation of project that I did that explains what I did, why I did, and how I made my choices.
-                                    This can go into a bit of depth so the user understands my project and what I accomplished. 
+                            <p> Created a project that uses React, Redux, and SASS. The goal of this project was to create a full, end-to-end eCommerce
+                                experience. This project features logging in, creating accounts, managing a cart, reusable components, product sorting, and more. 
                             </p>
 
-                            <button className={styling.button}> See Page</button> 
-                            <button className={styling.button}> Github </button>
+                            <a 
+                                href="https://title-boxing-store.vercel.app/#/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            > 
+                                <button className={styling.button}> 
+                                    See Page
+                                </button>   
+                            </a>
+                            
+                            <a 
+                                href="https://github.com/BrianDriscollCode/title_boxing_store" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            > 
+                                <button className={styling.button}> 
+                                    Github
+                                </button>   
+                            </a>
                         </div>
                     </div>
             </div>
@@ -39,13 +60,20 @@ const Static_Portfolio = () => {
                         </div>
                         
                         <div className={styling.text_container_after}>
-                            <h3> Title Boxing Ecommerce </h3>
+                            <h3> Safaria World </h3>
 
-                            <p> This is an explanation of project that I did that explains what I did, why I did, and how I made my choices.
-                                    This can go into a bit of depth so the user understands my project and what I accomplished. 
+                            <p> Built with pure HTML and CSS, this was created for a blockchain company. Built the main website, created documentation for their onchain products, and also made a browser mini-game using Phaser and JavaScript.
                             </p>
 
-                            <button className={styling.button}> See Page</button> 
+                            <a 
+                                href="https://safaria.world/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            > 
+                                <button className={styling.button}> 
+                                    See Website
+                                </button>   
+                            </a> 
                             
                         </div>
                     </div>
@@ -59,14 +87,31 @@ const Static_Portfolio = () => {
                         </div>
                         
                         <div className={styling.text_container_initial}>
-                            <h3> Title Boxing Ecommerce </h3>
+                            <h3> Fitness Website (in progress) </h3>
 
-                            <p> This is an explanation of project that I did that explains what I did, why I did, and how I made my choices.
-                                    This can go into a bit of depth so the user understands my project and what I accomplished. 
+                            <p>  Built using React and SASS. Created this project to make an easy-to-update application so it can be adjusted for different fitness businesses.
+                                Also connected to AWS database using NodeJs and uses MySQL queries for logging in and creating accounts. Still in progress.
                             </p>
 
-                            <button className={styling.button}> See Page</button> 
-                            <button className={styling.button}> Github </button>
+                            <a 
+                                href="https://fitness-webkit.vercel.app/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            > 
+                                <button className={styling.button}> 
+                                    See Page
+                                </button>   
+                            </a>
+                            
+                            <a 
+                                href="https://github.com/BrianDriscollCode/martial-arts-gym-webkit" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            > 
+                                <button className={styling.button}> 
+                                    Github
+                                </button>   
+                            </a>
                         </div>
                     </div>
             </div>

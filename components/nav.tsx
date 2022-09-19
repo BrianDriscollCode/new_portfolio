@@ -44,19 +44,24 @@ const Nav = () => {
                     </div> 
                     
                     <div>
-                        <Link className={styles.link} href="/"> PORTFOLIO </Link>
+                        <Link className={styles.link} href="/#portfolio"> PORTFOLIO </Link>
                     </div>
 
                     <div>
-                        <Link className={styles.link} href="/about"> ABOUT </Link>
+                        <Link className={styles.link} href="/#about"> ABOUT </Link>
                     </div>
                     
                     <div>
-                        <Link className={styles.link} href="/"> RESUME </Link>
+                        <a 
+                            className={styles.link} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            href="/Frontend_Web_Developer_Resume_Brian_Driscoll.pdf"
+                        > RESUME </a>
                     </div>
                     
                     <div>
-                        <Link className={styles.link} href="/"> CONTACT </Link>
+                        <Link className={styles.link} href="/#contact"> CONTACT </Link>
                     </div>
 
                 </div>

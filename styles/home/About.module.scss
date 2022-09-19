@@ -1,13 +1,16 @@
 .about_container {
 
-    background-color: #50656e;
+    background-image: linear-gradient(#50656e, #282828);
     display: flex;
     justify-content: center;
+    padding-bottom: 2em;
  
 }
 
 .about_wrapper {
 
+    margin-top: 2em;
+    margin-bottom: 2em;
     width: 55%;
 
 }
@@ -56,7 +59,7 @@
 
 .about_description {
 
-    padding: 0 25px 0 25px;
+    padding: 0 0 0 45px;
 
 }
 
@@ -72,9 +75,16 @@
     font-weight: 600;
     font-size: 20px;
     font-style: italic;
-    text-decoration: underline;
     color: white;
+    display: inline-block;
 
+}
+
+.u_line::after {
+        content: '';
+        display: block;
+        height: 3px;
+        background-color: #e0c260;
 }
 
 //Media Queries 
